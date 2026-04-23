@@ -14,7 +14,7 @@
 
 ## Video Demo & Penjelasan
 
-> **Link Video:** `[Tambahkan link Google Drive / YouTube di sini]`
+> **Link Video:** `Coming soon`
 
 Video berisi penjelasan lengkap:
 - Halaman Login & validasinya
