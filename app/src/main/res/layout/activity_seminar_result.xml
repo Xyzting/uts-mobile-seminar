@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".ui.seminar.SeminarResultActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Success Header Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="16dp"
+            app:cardBackgroundColor="@color/primary">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:paddingHorizontal="24dp"
+                android:paddingVertical="32dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/ic_check_circle"
+                    android:layout_marginBottom="16dp"
+                    android:contentDescription="Success icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/result_title"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="6dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/result_subtitle"
+                    android:textColor="#CCE3F4"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Result Detail Card -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="12dp"
+            app:cardBackgroundColor="@color/surface">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Detail Pendaftaran"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary"
+                    android:layout_marginBottom="16dp" />
+
+                <!-- Nama -->
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:layout_marginBottom="12dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="@string/result_nama"
+                        android:textSize="12sp" android:textColor="@color/text_secondary"
+                        android:layout_marginBottom="2dp" />
+                    <TextView android:id="@+id/tvNamaValue" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp" android:textColor="@color/on_surface"
+                        android:textStyle="bold" tools:text="Reyhan Fathir A" />
+                </LinearLayout>
+
+                <View android:layout_width="match_parent" android:layout_height="1dp"
+                    android:background="@color/divider" android:layout_marginBottom="12dp" />
+
+                <!-- Email -->
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:layout_marginBottom="12dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="@string/result_email"
+                        android:textSize="12sp" android:textColor="@color/text_secondary"
+                        android:layout_marginBottom="2dp" />
+                    <TextView android:id="@+id/tvEmailValue" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp" android:textColor="@color/on_surface"
+                        android:textStyle="bold" tools:text="reyhan@email.com" />
+                </LinearLayout>
+
+                <View android:layout_width="match_parent" android:layout_height="1dp"
+                    android:background="@color/divider" android:layout_marginBottom="12dp" />
+
+                <!-- Phone -->
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:layout_marginBottom="12dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="@string/result_phone"
+                        android:textSize="12sp" android:textColor="@color/text_secondary"
+                        android:layout_marginBottom="2dp" />
+                    <TextView android:id="@+id/tvPhoneValue" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp" android:textColor="@color/on_surface"
+                        android:textStyle="bold" tools:text="081234567890" />
+                </LinearLayout>
+
+                <View android:layout_width="match_parent" android:layout_height="1dp"
+                    android:background="@color/divider" android:layout_marginBottom="12dp" />
+
+                <!-- Gender -->
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:layout_marginBottom="12dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="@string/result_gender"
+                        android:textSize="12sp" android:textColor="@color/text_secondary"
+                        android:layout_marginBottom="2dp" />
+                    <TextView android:id="@+id/tvGenderValue" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp" android:textColor="@color/on_surface"
+                        android:textStyle="bold" tools:text="Laki-laki" />
+                </LinearLayout>
+
+                <View android:layout_width="match_parent" android:layout_height="1dp"
+                    android:background="@color/divider" android:layout_marginBottom="12dp" />
+
+                <!-- Seminar -->
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="@string/result_seminar"
+                        android:textSize="12sp" android:textColor="@color/text_secondary"
+                        android:layout_marginBottom="2dp" />
+                    <TextView android:id="@+id/tvSeminarValue" android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp" android:textColor="@color/on_surface"
+                        android:textStyle="bold" tools:text="Seminar AI &amp; Machine Learning" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Back Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnKembali"
+            style="@style/Widget.SeminarApp.Button"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:text="@string/btn_kembali"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+</ScrollView>
