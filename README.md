@@ -14,7 +14,7 @@
 
 ## Video Demo & Penjelasan
 
-> **Link Video:** `Coming soon`
+> **Link Video:** `https://youtu.be/WA1J3PHDFQg`
 
 Video berisi penjelasan lengkap:
 - Halaman Login & validasinya
@@ -191,4 +191,4 @@ Password : fathir123
 
 ## Penyimpanan Data
 
-Seluruh pendaftaran disimpan di **SharedPreferences** dengan format JSON array. Data **tetap tersimpan** meskipun aplikasi ditutup — jadi bisa buka kembali dan tetap muncul di Laporan. Gunakan tombol hapus untuk membersihkan data.
+Seluruh pendaftaran disimpan di **SharedPreferences** dengan format JSON array. Data **tetap tersimpan** meskipun aplikasi ditutup jadi bisa buka kembali dan tetap muncul di Laporan. Gunakan tombol hapus untuk membersihkan data.
