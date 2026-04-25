@@ -1,95 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Seminar Registration App</string>
-    <string name="app_subtitle">Universitas Teknologi Bandung</string>
+  <string name="app_name">Seminar Registration App</string>
+  <string name="app_subtitle">Universitas Teknologi Bandung</string>
 
-    <!-- Login -->
-    <string name="label_username">Username</string>
-    <string name="label_password">Password</string>
-    <string name="btn_login">Login</string>
-    <string name="tv_to_register">Belum punya akun? &lt;b&gt;Daftar sekarang&lt;/b&gt;</string>
-    <string name="login_welcome">Selamat Datang!</string>
-    <string name="login_subtitle">Masuk untuk mendaftar seminar</string>
+  <!-- Login -->
+  <string name="label_username">Username</string>
+  <string name="label_password">Password</string>
+  <string name="btn_login">Login</string>
+  <string name="tv_to_register">Belum punya akun? Daftar sekarang</string>
+  <string name="login_welcome">Selamat Datang!</string>
+  <string name="login_subtitle">Masuk untuk mendaftar seminar</string>
 
-    <!-- Register Akun -->
-    <string name="label_nama">Nama Lengkap</string>
-    <string name="label_email">Email</string>
-    <string name="label_phone">Nomor HP</string>
-    <string name="label_password_confirm">Konfirmasi Password</string>
-    <string name="btn_register">Daftar</string>
-    <string name="tv_to_login">Sudah punya akun? &lt;b&gt;Login sekarang&lt;/b&gt;</string>
-    <string name="register_title">Buat Akun Baru</string>
+  <!-- Register Akun -->
+  <string name="label_nama">Nama Lengkap</string>
+  <string name="label_email">Email</string>
+  <string name="label_phone">Nomor HP</string>
+  <string name="label_password_confirm">Konfirmasi Password</string>
+  <string name="btn_register">Daftar</string>
+  <string name="tv_to_login">Sudah punya akun? Login sekarang</string>
+  <string name="register_title">Buat Akun Baru</string>
 
-    <!-- Home -->
-    <string name="home_title">Seminar Registration App</string>
-    <string name="home_desc">Daftarkan diri Anda ke seminar pilihan dan tingkatkan wawasan bersama kami.</string>
-    <string name="btn_daftar_seminar">Daftar Seminar</string>
+  <!-- Home -->
+  <string name="home_title">Seminar Registration App</string>
+  <string name="home_desc">Daftarkan diri Anda ke seminar pilihan dan tingkatkan wawasan bersama
+    kami.</string>
+  <string name="btn_daftar_seminar">Daftar Seminar</string>
 
-    <!-- Form -->
-    <string name="form_title">Form Pendaftaran Seminar</string>
-    <string name="label_gender">Jenis Kelamin</string>
-    <string name="label_seminar">Pilihan Seminar</string>
-    <string name="rb_laki">Laki-laki</string>
-    <string name="rb_perempuan">Perempuan</string>
-    <string name="cb_setuju">Saya menyetujui data yang diinput benar</string>
-    <string name="btn_submit">Submit Pendaftaran</string>
-    <string name="hint_seminar">Pilih seminar…</string>
+  <!-- Form -->
+  <string name="form_title">Form Pendaftaran Seminar</string>
+  <string name="label_gender">Jenis Kelamin</string>
+  <string name="label_seminar">Pilihan Seminar</string>
+  <string name="rb_laki">Laki-laki</string>
+  <string name="rb_perempuan">Perempuan</string>
+  <string name="cb_setuju">Saya menyetujui data yang diinput benar</string>
+  <string name="btn_submit">Submit Pendaftaran</string>
+  <string name="hint_seminar">Pilih seminar…</string>
 
-    <!-- Dialog -->
-    <string name="dialog_title">Konfirmasi Data</string>
-    <string name="dialog_message">Apakah data yang Anda isi sudah benar?</string>
-    <string name="dialog_yes">Ya, Lanjutkan</string>
-    <string name="dialog_no">Tidak, Kembali</string>
+  <!-- Dialog -->
+  <string name="dialog_title">Konfirmasi Data</string>
+  <string name="dialog_message">Apakah data yang Anda isi sudah benar?</string>
+  <string name="dialog_yes">Ya, Lanjutkan</string>
+  <string name="dialog_no">Tidak, Kembali</string>
 
-    <!-- Result -->
-    <string name="result_title">Pendaftaran Berhasil!</string>
-    <string name="result_subtitle">Data Anda telah berhasil didaftarkan</string>
-    <string name="result_nama">Nama</string>
-    <string name="result_email">Email</string>
-    <string name="result_phone">Nomor HP</string>
-    <string name="result_gender">Jenis Kelamin</string>
-    <string name="result_seminar">Seminar Dipilih</string>
-    <string name="btn_kembali">Lihat Laporan Pendaftar</string>
+  <!-- Result -->
+  <string name="result_title">Pendaftaran Berhasil!</string>
+  <string name="result_subtitle">Data Anda telah berhasil didaftarkan</string>
+  <string name="result_nama">Nama</string>
+  <string name="result_email">Email</string>
+  <string name="result_phone">Nomor HP</string>
+  <string name="result_gender">Jenis Kelamin</string>
+  <string name="result_seminar">Seminar Dipilih</string>
+  <string name="btn_kembali">Lihat Laporan Pendaftar</string>
 
-    <!-- Bottom Navigation -->
-    <string name="menu_dashboard">Dashboard</string>
-    <string name="menu_register">Register</string>
-    <string name="menu_laporan">Laporan</string>
+  <!-- Bottom Navigation -->
+  <string name="menu_dashboard">Dashboard</string>
+  <string name="menu_register">Register</string>
+  <string name="menu_laporan">Laporan</string>
 
-    <!-- Dashboard -->
-    <string name="dashboard_greeting">Halo, %1$s!</string>
-    <string name="dashboard_subtitle">Selamat datang di Seminar App</string>
-    <string name="dashboard_stat_total">Total Pendaftar</string>
-    <string name="dashboard_stat_seminar">Total Seminar</string>
-    <string name="dashboard_quick_actions">Aksi Cepat</string>
-    <string name="dashboard_action_daftar_title">Daftar Seminar</string>
-    <string name="dashboard_action_daftar_desc">Isi form pendaftaran seminar baru</string>
-    <string name="dashboard_action_laporan_title">Lihat Laporan</string>
-    <string name="dashboard_action_laporan_desc">Daftar peserta yang sudah terdaftar</string>
-    <string name="dashboard_latest">Pendaftaran Terbaru</string>
-    <string name="dashboard_empty">Belum ada pendaftaran</string>
+  <!-- Dashboard -->
+  <string name="dashboard_greeting">Halo, %1$s!</string>
+  <string name="dashboard_subtitle">Selamat datang di Seminar App</string>
+  <string name="dashboard_stat_total">Total Pendaftar</string>
+  <string name="dashboard_stat_seminar">Total Seminar</string>
+  <string name="dashboard_quick_actions">Aksi Cepat</string>
+  <string name="dashboard_action_daftar_title">Daftar Seminar</string>
+  <string name="dashboard_action_daftar_desc">Isi form pendaftaran seminar baru</string>
+  <string name="dashboard_action_laporan_title">Lihat Laporan</string>
+  <string name="dashboard_action_laporan_desc">Daftar peserta yang sudah terdaftar</string>
+  <string name="dashboard_latest">Pendaftaran Terbaru</string>
+  <string name="dashboard_empty">Belum ada pendaftaran</string>
 
-    <!-- Laporan -->
-    <string name="laporan_title">Laporan Pendaftaran</string>
-    <string name="laporan_count">%1$d peserta terdaftar</string>
-    <string name="laporan_empty_title">Belum Ada Pendaftaran</string>
-    <string name="laporan_empty_subtitle">Peserta yang mendaftar akan tampil di sini</string>
+  <!-- Laporan -->
+  <string name="laporan_title">Laporan Pendaftaran</string>
+  <string name="laporan_count">%1$d peserta terdaftar</string>
+  <string name="laporan_empty_title">Belum Ada Pendaftaran</string>
+  <string name="laporan_empty_subtitle">Peserta yang mendaftar akan tampil di sini</string>
 
-    <!-- Register Fragment -->
-    <string name="register_fragment_title">Form Pendaftaran</string>
-    <string name="register_fragment_subtitle">Lengkapi data untuk mendaftar seminar</string>
+  <!-- Register Fragment -->
+  <string name="register_fragment_title">Form Pendaftaran</string>
+  <string name="register_fragment_subtitle">Lengkapi data untuk mendaftar seminar</string>
 
-    <!-- Delete Dialog -->
-    <string name="delete_title">Hapus Pendaftaran?</string>
-    <string name="delete_message">Pendaftaran atas nama %1$s akan dihapus permanen.</string>
-    <string name="delete_yes">Ya, Hapus</string>
-    <string name="delete_no">Batal</string>
-    <string name="delete_success">Pendaftaran berhasil dihapus</string>
+  <!-- Delete Dialog -->
+  <string name="delete_title">Hapus Pendaftaran?</string>
+  <string name="delete_message">Pendaftaran atas nama %1$s akan dihapus permanen.</string>
+  <string name="delete_yes">Ya, Hapus</string>
+  <string name="delete_no">Batal</string>
+  <string name="delete_success">Pendaftaran berhasil dihapus</string>
 
-    <!-- Logout Dialog -->
-    <string name="action_logout">Logout</string>
-    <string name="logout_title">Keluar Aplikasi?</string>
-    <string name="logout_message">Anda akan keluar dari akun ini.</string>
-    <string name="logout_yes">Ya, Keluar</string>
-    <string name="logout_no">Batal</string>
+  <!-- Logout Dialog -->
+  <string name="action_logout">Logout</string>
+  <string name="logout_title">Keluar Aplikasi?</string>
+  <string name="logout_message">Anda akan keluar dari akun ini.</string>
+  <string name="logout_yes">Ya, Keluar</string>
+  <string name="logout_no">Batal</string>
 </resources>
